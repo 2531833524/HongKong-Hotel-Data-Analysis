@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# 解决中问问题
+# 解决中文问题
 plt.rcParams['font.sans-serif'] = 'SimHei'
 df = pd.read_excel('./酒店数据1.xlsx')
 data = df['评分']
